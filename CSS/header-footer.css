@@ -1,0 +1,24 @@
+/* start header */
+small {
+    text-align: center;
+    font-size: 14px;
+}
+.active {
+    background-color: #094cb0;
+}
+/* end header */
+/* start footer */
+.footer h3 {
+    position: relative;
+    padding-bottom: 35px;
+}
+.footer h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    top: 50px;
+    background-color: white;
+}
+/* end footer */

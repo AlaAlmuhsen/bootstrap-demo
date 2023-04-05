@@ -1,0 +1,56 @@
+/* start bread crumps */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  border: 1px solid rgb(184, 184, 184);
+  font-size: 18px;
+}
+@media (max-width: 576px) {
+  ul.breadcrumb {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+/* end bread crumps */
+/* Start main */
+/* Start category */
+.main .category {
+  border-top: #0275d8 solid 3px !important;
+  border: 1px solid gray;
+  margin-bottom: 30px;
+}
+.main .category p {
+  background-color: rgb(233, 233, 233);
+  padding: 10px 15px;
+}
+.main .category ul li {
+  border-radius: 0px;
+  border: none;
+  text-transform: uppercase;
+}
+.form-check {
+    margin-left: 10px;
+}
+/* end category */
+/* start filter-result*/
+.filter-result > img {
+    width: 100%;
+}
+/* end filter-result*/
+/* end main */
